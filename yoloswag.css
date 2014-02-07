@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  padding-top: 60px;
+}
+
+
+/* Navbar */
+nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: white;
+}
+
+nav ul{
+  float: right;
+}
+nav li{
+  float: left;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+nav a{
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+nav img{
+float: left;
+padding-top: 10px;
+}
+
+/* Hero */
+.hero{
+  height: 592px;
+  width: 892px;
+  background: url(images/confetti.jpg) no-repeat;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero img{
+  padding-top: 50px;
+}
+
+/* Reviews */
+.reviews{
+  width: 692px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.reviews h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.review{
+  float: left;
+  width: 340px;
+  margin-right: 6px;
+}
+
+.reviewtext{
+  font-style: italic;
+  font-family: Georgia, serif;
+  line-height: 22px;
+}
+.attribution{
+  padding: 10px 0 10px 64px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.attribution img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.attribution p {
+  margin: 0;
+}
+
+
+/* Footer */
+footer{
+  background: rgb(78, 87, 87);
+}
+
+footer h4{
+  color: rgb(131, 131, 139);
+
+}
+.linklist{
+  float: left;
+  margin-right: 100px;
+}
+
+.container{
+  width: 692px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+footer li{
+  color: rgb(186, 191, 191);
+  line-height: 2.5em;
+}
+
+
+
+
